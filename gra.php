@@ -32,11 +32,9 @@
 </head>
 
 <body>
-<?php
 	
 
-	echo "<h1> Witaj, ".$_SESSION['user']."</h1>";	
-?>
+	<h1> Witaj, <?=$_SESSION['user'] ?></h1>;	
 	<p>
 		Play the memory game based on <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Pokemon</a>
 	</p>
@@ -67,7 +65,14 @@
 		
 		<div class="score"> Turns used : 0 </div><!-- end of score div-->
 	</div> <!-- end of div board -->
-
+	<div class="container">
+	<div class="row">
+		<div class="col-6">EMAIL <?=$_SESSION['email'] ?></div>
+		<div class="col-6">PREMIUM EXPIRES ON <?=$_SESSION['premiumexpires'] ?> </div>
+		<div class="col-6">TASUJ</div>
+		<div class="col-6">WYLOGUJ</div>
+	</div> <!-- end of row-->
+	</div> <!-- end of container-->
 
 	<script src="jquery-3.6.0.min.js"></script>
 	<script src="memory.js"></script>
