@@ -75,13 +75,10 @@ p{
 	transition: 0.8s ease-in-out;
 	border: 4px solid white;
 }
-.cardHidden
-{
-	background-color: black;
-}
 .card:hover{
 	filter: brightness(100%);
 	border: 4px solid white;
+	cursor: cell;
 }
 .card:before{
 	padding-top: 100%;
