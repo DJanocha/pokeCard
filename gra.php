@@ -34,7 +34,7 @@
 <body>
 	
 
-	<h1> Witaj, <?=$_SESSION['user'] ?></h1>;	
+	<h1> Witaj, <?=$_SESSION['user'] ?></h1>	
 	<p>
 		Play the memory game based on <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">Pokemon</a>
 	</p>
@@ -68,9 +68,9 @@
 	<div class="container">
 	<div class="row">
 		<div class="col-6">EMAIL <?=$_SESSION['email'] ?></div>
-		<div class="col-6">PREMIUM EXPIRES ON <?=$_SESSION['premiumexpires'] ?> </div>
+		<div class="col-6">PREMIUM EXPIRES ON <?=$_SESSION['premium_expire'] ?> </div>
 		<div class="col-6">TASUJ</div>
-		<div class="col-6">WYLOGUJ</div>
+		<div class="col-6"><a href="logout.php">WYLOGUJ</a></div>
 	</div> <!-- end of row-->
 	</div> <!-- end of container-->
 
