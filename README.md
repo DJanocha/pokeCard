@@ -1,10 +1,19 @@
-My pokemon card game based on memory game, but  I'm trying to add some features and learn a lot of fullstack dev stuff with it.
+<div align="center" color="green"><h1>POKEMEMORY </h1></div>
+<div align="center" ><h3>Card game like memory based on pokemon pics from 
+  
+  [BULBAPEDIA](https://bulbapedia.bulbagarden.net/wiki/Main_Page)</h3></div>
+<div color="blue"><h3>Rules are simple:</h3></div>
+1. you have to pick 2 cards
 
-Thanks to:
+2. if they match, you get a point and the pair is destroyed/hidden
 
-Miroslaw Zelent (Pasja Informatyki) for most of the knowledge I got- https://www.youtube.com/watch?v=edNqTubHUU0&t=1585s&ab_channel=Pasjainformatyki
-Bulbapedia for images content- https://bulbapedia.bulbagarden.net/wiki/Main_Page
+3. pick every pair to win
 
-I'm not the owner of those images. If you like, please consider  visiting the bulbapedia webpage to see more of those.
+5. if you win you are the best in the galaxy
 
-See ya.
+ Play with it using xamp or just CHECK IT OUT!
+
+<div align="center" color="orangered"><h3>DEMO BELOW</h3></div>
+
+
+[demo](https://user-images.githubusercontent.com/50969285/124045925-11087c00-da11-11eb-889a-503c279ce1da.mp4)
